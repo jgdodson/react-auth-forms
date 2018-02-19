@@ -1,0 +1,22 @@
+{
+  "name": "react-auth-forms",
+  "version": "0.0.1",
+  "description": "\"Simple authentication forms in React\"",
+  "repository": "https://www.github.com/jgdodson/react-auth-forms.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react",
+    "forms",
+    "login",
+    "signup"
+  ],
+  "author": "Jordan Dodson",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.11.0"
+  }
+}
