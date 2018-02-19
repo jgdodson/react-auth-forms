@@ -2,11 +2,12 @@
   "name": "react-auth-forms",
   "version": "0.0.1",
   "description": "\"Simple authentication forms in React\"",
-  "repository": "https://www.github.com/jgdodson/react-auth-forms.git",
-  "main": "index.js",
+  "repository": "https://www.github.com/jgdodson/react-auth-forms",
+  "main": "target/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack -d --watch"
   },
   "keywords": [
     "react",
@@ -17,6 +18,19 @@
   "author": "Jordan Dodson",
   "license": "ISC",
   "dependencies": {
-    "webpack": "^3.11.0"
+    "email-validator": "^1.1.1",
+    "react": "^16.0.0",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "style-loader": "^0.19.0",
+    "css-loader": "^0.28.7"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0"
   }
 }
